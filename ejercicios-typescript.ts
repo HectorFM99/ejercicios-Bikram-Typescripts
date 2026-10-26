@@ -146,7 +146,7 @@ if (usuarioEncontrado !== undefined) {
     console.log(usuarioEncontrado.toUpperCase());
 }
 
-console.log(buscarUsuario(2)); // undefined
+console.log(buscarUsuario(2));
 
 
 // ---------------------------------------------------------------------------
@@ -235,8 +235,8 @@ class CuentaBancaria {
 
 const cuenta = new CuentaBancaria(100);
 cuenta.ingresar(50);
-cuenta.ingresar(-20); // cantidad no positiva, no se ingresa nada
-console.log(cuenta.consultarSaldo()); // 150
+cuenta.ingresar(-20);
+console.log(cuenta.consultarSaldo());
 
 
 // ---------------------------------------------------------------------------
@@ -314,9 +314,9 @@ function primero<T>(elementos: T[]): T | undefined {
     return elementos[0];
 }
 
-console.log(primero([10, 20, 30]));       // 10
-console.log(primero(["Ana", "Luis"]));    // "Ana"
-console.log(primero([]));                 // undefined
+console.log(primero([10, 20, 30]));
+console.log(primero(["Ana", "Luis"]));
+console.log(primero([]));
 
 
 // ---------------------------------------------------------------------------
